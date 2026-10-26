@@ -1,0 +1,6 @@
+services:
+  dependabot_demo:
+    build: .
+    container_name: dependabot_demo
+    volumes:
+      - .:/var/www/html
