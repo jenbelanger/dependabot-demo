@@ -1,4 +1,4 @@
-FROM php:8.2.0-fpm-alpine
+FROM php:8.5.11-fpm-alpine
 
 # Install Composer.
 RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
