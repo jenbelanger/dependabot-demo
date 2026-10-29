@@ -2,6 +2,11 @@ version: 2
 
 updates:
   - package-ecosystem: "docker"
-    directory: "/"
+    directory: "/js"
+    schedule:
+      interval: "daily"
+
+  - package-ecosystem: "docker"
+    directory: "/php"
     schedule:
       interval: "daily"

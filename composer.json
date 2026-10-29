@@ -1,6 +1,0 @@
-{
-	"name": "jenbelanger/dependabot-demo",
-	"require": {
-		"laravel/framework": "v11.0.0"
-	}
-}

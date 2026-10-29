@@ -1,6 +1,14 @@
 services:
-  dependabot_demo:
-    build: .
-    container_name: dependabot_demo
+  dependabot_demo_js:
+    build: ./js
+    container_name: dependabot_demo_js
+    tty: true
     volumes:
-      - .:/var/www/html
+      - ./js:/app
+
+  dependabot_demo_php:
+    build: ./php
+    container_name: dependabot_demo_php
+    tty: true
+    volumes:
+      - ./php:/var/www/html
